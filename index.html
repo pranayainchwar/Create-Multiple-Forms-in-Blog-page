@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+  </head>
+  <body>
+    <h3>Already Registered? <u>LOGIN</u> now</h3>
+    <form action="login.php" method="post">
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="abc@gmail.com"
+      />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+      <button type="submit">Login</button>
+      <hr />
+      <div>
+        <br />
+        <a href="Coding Ninjas Blogs">Coding Ninjas Blogs</a>
+      </div>
+      <br />
+      <div>
+        <img
+          src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png"
+          alt="i love coding"
+        />
+      </div>
+      <br />
+      <hr />
+      <div>
+        <h3><u>REGISTRATION</u></h3>
+        <br />
+        <form action="form.php" method="post">
+          <label for="name">First Name:</label>
+          <input type="text" name="name" id="name" />
+          <br />
+          <br />
+          <label for="Lname">Last Name:</label>
+          <input type="text" name="Lname" id="Lname" />
+          <br />
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+          <label for="houe no">Flat No/House No.</label>
+          <input type="text" name="house no" id="house no" />
+          <br />
+          <br />
+          <label for="houe no">Current Address: Locality </label>
+          <input type="text" name="house no" id="house no" />
+          <br />
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <label for="houe no">City </label>
+          <input type="text" name="house no" id="house no" />
+
+          <h5>
+            Is Current address and Permanent address same ?
+            <label class="radio-container"
+              >Yes
+              <input
+                type="radio"
+                name="choice"
+                value="yes"
+                class="radio-button"
+              />
+            </label>
+            <label class="radio-container"
+              >No
+              <input
+                type="radio"
+                name="choice"
+                value="no"
+                class="radio-button"
+              />
+            </label>
+          </h5>
+          <br />
+          &nbsp;&nbsp; &nbsp;
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="abc@gmail.com"
+          />
+          <br /><br />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <br /><br />
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </form>
+  </body>
+</html>
